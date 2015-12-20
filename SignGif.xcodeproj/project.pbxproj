@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15EE5AA31C260DAC0002BFB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AA21C260DAC0002BFB8 /* AppDelegate.swift */; };
+		15EE5AA51C260DAC0002BFB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AA41C260DAC0002BFB8 /* ViewController.swift */; };
+		15EE5AA81C260DAC0002BFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EE5AA61C260DAC0002BFB8 /* Main.storyboard */; };
+		15EE5AAA1C260DAC0002BFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EE5AA91C260DAC0002BFB8 /* Assets.xcassets */; };
+		15EE5AAD1C260DAC0002BFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EE5AAB1C260DAC0002BFB8 /* LaunchScreen.storyboard */; };
+		15EE5AB81C260DAC0002BFB8 /* SignGifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AB71C260DAC0002BFB8 /* SignGifTests.swift */; };
+		15EE5AC31C260DAC0002BFB8 /* SignGifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AC21C260DAC0002BFB8 /* SignGifUITests.swift */; };
+		15EE5AD11C2616DF0002BFB8 /* SearchVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AD01C2616DF0002BFB8 /* SearchVideo.swift */; };
+		15EE5AD31C262DE90002BFB8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AD21C262DE90002BFB8 /* ContentViewController.swift */; };
+		15EE5AD51C2631400002BFB8 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE5AD41C2631400002BFB8 /* StartingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15EE5AB41C260DAC0002BFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EE5A971C260DAC0002BFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EE5A9E1C260DAC0002BFB8;
+			remoteInfo = SignGif;
+		};
+		15EE5ABF1C260DAC0002BFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15EE5A971C260DAC0002BFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15EE5A9E1C260DAC0002BFB8;
+			remoteInfo = SignGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15EE5A9F1C260DAC0002BFB8 /* SignGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EE5AA21C260DAC0002BFB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15EE5AA41C260DAC0002BFB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15EE5AA71C260DAC0002BFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EE5AA91C260DAC0002BFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EE5AAC1C260DAC0002BFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15EE5AAE1C260DAC0002BFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EE5AB31C260DAC0002BFB8 /* SignGifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignGifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EE5AB71C260DAC0002BFB8 /* SignGifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignGifTests.swift; sourceTree = "<group>"; };
+		15EE5AB91C260DAC0002BFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EE5ABE1C260DAC0002BFB8 /* SignGifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignGifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EE5AC21C260DAC0002BFB8 /* SignGifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignGifUITests.swift; sourceTree = "<group>"; };
+		15EE5AC41C260DAC0002BFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EE5AD01C2616DF0002BFB8 /* SearchVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVideo.swift; sourceTree = "<group>"; };
+		15EE5AD21C262DE90002BFB8 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		15EE5AD41C2631400002BFB8 /* StartingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EE5A9C1C260DAC0002BFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5AB01C260DAC0002BFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5ABB1C260DAC0002BFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EE5A961C260DAC0002BFB8 = {
+			isa = PBXGroup;
+			children = (
+				15EE5AA11C260DAC0002BFB8 /* SignGif */,
+				15EE5AB61C260DAC0002BFB8 /* SignGifTests */,
+				15EE5AC11C260DAC0002BFB8 /* SignGifUITests */,
+				15EE5AA01C260DAC0002BFB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EE5AA01C260DAC0002BFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EE5A9F1C260DAC0002BFB8 /* SignGif.app */,
+				15EE5AB31C260DAC0002BFB8 /* SignGifTests.xctest */,
+				15EE5ABE1C260DAC0002BFB8 /* SignGifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EE5AA11C260DAC0002BFB8 /* SignGif */ = {
+			isa = PBXGroup;
+			children = (
+				15EE5AA21C260DAC0002BFB8 /* AppDelegate.swift */,
+				15EE5AA41C260DAC0002BFB8 /* ViewController.swift */,
+				15EE5AD21C262DE90002BFB8 /* ContentViewController.swift */,
+				15EE5AD41C2631400002BFB8 /* StartingViewController.swift */,
+				15EE5AD01C2616DF0002BFB8 /* SearchVideo.swift */,
+				15EE5AA61C260DAC0002BFB8 /* Main.storyboard */,
+				15EE5AA91C260DAC0002BFB8 /* Assets.xcassets */,
+				15EE5AAB1C260DAC0002BFB8 /* LaunchScreen.storyboard */,
+				15EE5AAE1C260DAC0002BFB8 /* Info.plist */,
+			);
+			path = SignGif;
+			sourceTree = "<group>";
+		};
+		15EE5AB61C260DAC0002BFB8 /* SignGifTests */ = {
+			isa = PBXGroup;
+			children = (
+				15EE5AB71C260DAC0002BFB8 /* SignGifTests.swift */,
+				15EE5AB91C260DAC0002BFB8 /* Info.plist */,
+			);
+			path = SignGifTests;
+			sourceTree = "<group>";
+		};
+		15EE5AC11C260DAC0002BFB8 /* SignGifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15EE5AC21C260DAC0002BFB8 /* SignGifUITests.swift */,
+				15EE5AC41C260DAC0002BFB8 /* Info.plist */,
+			);
+			path = SignGifUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EE5A9E1C260DAC0002BFB8 /* SignGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EE5AC71C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGif" */;
+			buildPhases = (
+				15EE5A9B1C260DAC0002BFB8 /* Sources */,
+				15EE5A9C1C260DAC0002BFB8 /* Frameworks */,
+				15EE5A9D1C260DAC0002BFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignGif;
+			productName = SignGif;
+			productReference = 15EE5A9F1C260DAC0002BFB8 /* SignGif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15EE5AB21C260DAC0002BFB8 /* SignGifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EE5ACA1C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGifTests" */;
+			buildPhases = (
+				15EE5AAF1C260DAC0002BFB8 /* Sources */,
+				15EE5AB01C260DAC0002BFB8 /* Frameworks */,
+				15EE5AB11C260DAC0002BFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EE5AB51C260DAC0002BFB8 /* PBXTargetDependency */,
+			);
+			name = SignGifTests;
+			productName = SignGifTests;
+			productReference = 15EE5AB31C260DAC0002BFB8 /* SignGifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15EE5ABD1C260DAC0002BFB8 /* SignGifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EE5ACD1C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGifUITests" */;
+			buildPhases = (
+				15EE5ABA1C260DAC0002BFB8 /* Sources */,
+				15EE5ABB1C260DAC0002BFB8 /* Frameworks */,
+				15EE5ABC1C260DAC0002BFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EE5AC01C260DAC0002BFB8 /* PBXTargetDependency */,
+			);
+			name = SignGifUITests;
+			productName = SignGifUITests;
+			productReference = 15EE5ABE1C260DAC0002BFB8 /* SignGifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EE5A971C260DAC0002BFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chris Wood";
+				TargetAttributes = {
+					15EE5A9E1C260DAC0002BFB8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					15EE5AB21C260DAC0002BFB8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15EE5A9E1C260DAC0002BFB8;
+					};
+					15EE5ABD1C260DAC0002BFB8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15EE5A9E1C260DAC0002BFB8;
+					};
+				};
+			};
+			buildConfigurationList = 15EE5A9A1C260DAC0002BFB8 /* Build configuration list for PBXProject "SignGif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EE5A961C260DAC0002BFB8;
+			productRefGroup = 15EE5AA01C260DAC0002BFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EE5A9E1C260DAC0002BFB8 /* SignGif */,
+				15EE5AB21C260DAC0002BFB8 /* SignGifTests */,
+				15EE5ABD1C260DAC0002BFB8 /* SignGifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EE5A9D1C260DAC0002BFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EE5AAD1C260DAC0002BFB8 /* LaunchScreen.storyboard in Resources */,
+				15EE5AAA1C260DAC0002BFB8 /* Assets.xcassets in Resources */,
+				15EE5AA81C260DAC0002BFB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5AB11C260DAC0002BFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5ABC1C260DAC0002BFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EE5A9B1C260DAC0002BFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EE5AD31C262DE90002BFB8 /* ContentViewController.swift in Sources */,
+				15EE5AA51C260DAC0002BFB8 /* ViewController.swift in Sources */,
+				15EE5AD11C2616DF0002BFB8 /* SearchVideo.swift in Sources */,
+				15EE5AA31C260DAC0002BFB8 /* AppDelegate.swift in Sources */,
+				15EE5AD51C2631400002BFB8 /* StartingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5AAF1C260DAC0002BFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EE5AB81C260DAC0002BFB8 /* SignGifTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EE5ABA1C260DAC0002BFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EE5AC31C260DAC0002BFB8 /* SignGifUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EE5AB51C260DAC0002BFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EE5A9E1C260DAC0002BFB8 /* SignGif */;
+			targetProxy = 15EE5AB41C260DAC0002BFB8 /* PBXContainerItemProxy */;
+		};
+		15EE5AC01C260DAC0002BFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15EE5A9E1C260DAC0002BFB8 /* SignGif */;
+			targetProxy = 15EE5ABF1C260DAC0002BFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15EE5AA61C260DAC0002BFB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EE5AA71C260DAC0002BFB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EE5AAB1C260DAC0002BFB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EE5AAC1C260DAC0002BFB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EE5AC51C260DAC0002BFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15EE5AC61C260DAC0002BFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EE5AC81C260DAC0002BFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignGif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15EE5AC91C260DAC0002BFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SignGif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15EE5ACB1C260DAC0002BFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignGifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignGif.app/SignGif";
+			};
+			name = Debug;
+		};
+		15EE5ACC1C260DAC0002BFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignGifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGifTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignGif.app/SignGif";
+			};
+			name = Release;
+		};
+		15EE5ACE1C260DAC0002BFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignGifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SignGif;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15EE5ACF1C260DAC0002BFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignGifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SignGifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SignGif;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EE5A9A1C260DAC0002BFB8 /* Build configuration list for PBXProject "SignGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EE5AC51C260DAC0002BFB8 /* Debug */,
+				15EE5AC61C260DAC0002BFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EE5AC71C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EE5AC81C260DAC0002BFB8 /* Debug */,
+				15EE5AC91C260DAC0002BFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EE5ACA1C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EE5ACB1C260DAC0002BFB8 /* Debug */,
+				15EE5ACC1C260DAC0002BFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EE5ACD1C260DAC0002BFB8 /* Build configuration list for PBXNativeTarget "SignGifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EE5ACE1C260DAC0002BFB8 /* Debug */,
+				15EE5ACF1C260DAC0002BFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EE5A971C260DAC0002BFB8 /* Project object */;
+}
