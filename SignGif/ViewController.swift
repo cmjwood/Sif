@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.pageTitles = NSArray(objects: "Type to search a video to share with your friends!", "Watch a video if you like it!", "Click bottom right of the video to share with your friend!", "Pick one to send to your friends!")
+        self.pageTitles = NSArray(objects: "Use the search or scroll down to find a sign language Gif!", "Click the share button to share with your friends!", "Pick a share platform to send to your friends!", "See the results after you use a sign language Gif!")
         self.pageImages = NSArray(objects: "page1", "page2", "page3", "page4")
         
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
@@ -29,7 +29,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         
         self.pageViewController.setViewControllers(viewControllers as? [UIViewController], direction: .Forward, animated: true, completion: nil)
     
-        self.pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.size.height)
+        self.pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height - 3)
         
         self.addChildViewController(self.pageViewController)
         self.view.addSubview(self.pageViewController.view)
@@ -37,11 +37,13 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func skipButtonPressed(sender: AnyObject) {
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     func viewControllerAtIndex(index: Int) -> ContentViewController {
         
         if ((self.pageTitles.count == 0) || (index >= self.pageTitles.count))

@@ -13,15 +13,99 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
 
     @IBOutlet weak var tableView: UITableView!
     
+    var imageArray = ["o_6f08b5cb5ef3fafa-0","o_6f08b5cb5ef3fafa-0", "o_6f08b5cb5ef3fafa-0","o_6f08b5cb5ef3fafa-0","o_6f08b5cb5ef3fafa-0"]
     var searchVideoArray = [SearchVideo]()
     var filteredVideo = [SearchVideo]()
     var searchController:UISearchController!
+
+    @IBOutlet weak var titleLogo: UIImageView!
+    @IBOutlet weak var gifImages: UIImageView!
+
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.searchVideoArray += [SearchVideo(name: "Happy")]
-        self.searchVideoArray += [SearchVideo(name: "Sad")]
+        gifImages.animationImages = [
+            UIImage(named: "o_6f08b5cb5ef3fafa-0")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-0")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-1")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-2")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-3")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-4")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-5")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-6")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-7")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-8")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-9")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-10")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-11")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-12")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-13")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-14")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-15")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-16")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-17")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-18")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-19")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-20")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-21")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-22")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-23")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-24")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-25")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-26")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-27")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-28")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-29")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-30")!,
+                UIImage(named: "o_6f08b5cb5ef3fafa-31")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-32")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-33")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-34")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-35")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-36")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-37")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-38")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-39")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-40")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-41")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-42")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-43")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-44")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-45")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-46")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-47")!,
+            UIImage(named: "o_6f08b5cb5ef3fafa-48")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-49")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-50")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-51")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-52")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-53")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-54")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-55")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-56")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-57")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-58")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-59")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-60")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-61")!,
+//            UIImage(named: "o_6f08b5cb5ef3fafa-62")!,
+        ]
+        
+        gifImages.animationDuration = 4
+        gifImages.startAnimating()
+    
+
+        let titleLogo = UIImageView(frame: CGRect(x: 0, y: 0, width: 38, height: 38))
+        titleLogo.contentMode = .ScaleAspectFit
+        let image = UIImage(named: "Sif logo")
+        titleLogo.image = image
+        navigationItem.titleView = titleLogo
+//        self.gifImages += [UIImage(named: "o_6f08b5cb5ef3fafa-0")];
+//        self.gifImages += [UIImage(named: "o_6f08b5cb5ef3fafa-0")!,
+//        self.gifImages += [UIImage(named: "o_6f08b5cb5ef3fafa-0")!,
+//        self.gifImages += [UIImage(named: "o_6f08b5cb5ef3fafa-0")!,
         self.searchVideoArray += [SearchVideo(name: "Lol")]
         self.searchVideoArray += [SearchVideo(name: "Stoked")]
         self.searchVideoArray += [SearchVideo(name: "Excited")]
@@ -46,7 +130,9 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
         
         //update table view
         self.tableView.reloadData()
+    
     }
+
     
     
     //ADD THIS FUNCTION!!!!
@@ -72,7 +158,7 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
         
         if (searchController.active){ //CHANGE tableView == self.searchDisplayController?.searchResultsTableView TO searchController.active
             
-            return self.filteredVideo.count
+            return self.imageArray.count
             
         }else{
             
@@ -98,7 +184,7 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
             
         }
         
-        cell!.textLabel?.text = video.name
+        cell!.textLabel?.text = imageArray[indexPath.row]
         
         return cell!
     }
@@ -129,8 +215,8 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
     {
         self.filteredVideo = self.searchVideoArray.filter({(video : SearchVideo) -> Bool in
             
-            var categoryMatch = (scope == "Title")
-            var stringMatch = video.name.rangeOfString(searchText)
+            let categoryMatch = (scope == "Title")
+            let stringMatch = video.name.rangeOfString(searchText)
             
             return categoryMatch && (stringMatch != nil)
             
@@ -153,4 +239,3 @@ class StartingViewController: UIViewController, UITableViewDataSource, UISearchR
         
     }
 }
-       
